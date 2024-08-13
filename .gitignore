@@ -7,3 +7,4 @@ composer.lock
 web/app/mu-plugins/woocommerce
 web/wp*
 web/app/uploads*
+create_database.php
