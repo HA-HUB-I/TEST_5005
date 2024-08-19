@@ -52,6 +52,10 @@ if (file_exists($root_dir . '/.env')) {
  * Default: production
  */
 define('WP_ENV', env('WP_ENV') ?: 'production');
+define('WC_SKIP_WOOCOMMERCE_SETUP_WIZARD', true);
+define('WC_REVIEWS_ENABLED', false);
+define('WC_ADMIN_DISABLED', true);
+define('WP_MEMORY_LIMIT', '256M');
 
 /**
  * Infer WP_ENVIRONMENT_TYPE based on WP_ENV
@@ -148,6 +152,10 @@ if (file_exists($env_config)) {
 }
 
 Config::apply();
+set_time_limit(300);
+@ini_set( 'max_input_vars' , 4000 );
+
+
 
 /**
  * Bootstrap WordPress

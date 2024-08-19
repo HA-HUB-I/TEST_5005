@@ -3,7 +3,7 @@
         'name' => 'incloud/wordpress',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c6190d58eec8b60dc82bcbe9dd4feec2c25d1f22',
+        'reference' => '3b2debc0396fc688637f07eef91f1dbb11234017',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'incloud/wordpress' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c6190d58eec8b60dc82bcbe9dd4feec2c25d1f22',
+            'reference' => '3b2debc0396fc688637f07eef91f1dbb11234017',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -73,7 +73,7 @@
         'roave/security-advisories' => array(
             'pretty_version' => 'dev-latest',
             'version' => 'dev-latest',
-            'reference' => 'a143e7459e3961149eb6a8eecc98dfa19799d02a',
+            'reference' => '251a4f1fefcc6e6cc90d50514fee6b6e3745cb3e',
             'type' => 'metapackage',
             'install_path' => null,
             'aliases' => array(
@@ -203,6 +203,15 @@
             'provided' => array(
                 0 => '6.6.1',
             ),
+        ),
+        'wpackagist-plugin/redis-cache' => array(
+            'pretty_version' => '2.5.3',
+            'version' => '2.5.3.0',
+            'reference' => 'tags/2.5.3',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../web/app/plugins/redis-cache',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'wpackagist-plugin/woocommerce' => array(
             'pretty_version' => '9.1.4',

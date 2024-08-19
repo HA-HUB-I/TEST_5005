@@ -204,3 +204,9 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+add_filter( 'wpwhpro/admin/webhooks/webhook_http_args', function( $args ) {
+    $args['reject_unsafe_urls'] = false;
+
+    return $args;
+}, 10, 1);

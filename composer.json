@@ -16,7 +16,8 @@
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "wpackagist-plugin/woocommerce": "^9.1",
     "plugin/fake-sync-store" : "1.2.3",
-    "roots/wp-stage-switcher": "~2.1"
+    "roots/wp-stage-switcher": "~2.1",
+    "wpackagist-plugin/redis-cache": "^2.5"
 
   },
 
